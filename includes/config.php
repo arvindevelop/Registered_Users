@@ -9,5 +9,8 @@
     $db->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY,true);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    define('APP_NAME','PHP REST API TUTORIAL');
+    $con=mysqli_connect("localhost", $db_user, $db_password, $db_name);
+    if(mysqli_connect_errno()){
+    echo "Connection Fail".mysqli_connect_error();
+}
 ?>

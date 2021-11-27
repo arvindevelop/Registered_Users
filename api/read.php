@@ -11,7 +11,7 @@ include_once('../core/initialize.php');
 //instantiate post
 $post = new Post($db);
 
-//blog post query
+//post query
 $result = $post->read();
 //get the row count
 $num = $result->rowCount();
