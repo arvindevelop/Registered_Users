@@ -1,7 +1,7 @@
 <?php
 
 //headers
-//header('Accesss-Control-Allow-Origin: *');
+header('Accesss-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
 
