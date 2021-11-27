@@ -7,6 +7,7 @@
     $db_password = 'KoLhWQe5cI';
     $db_name = 'mP0ewlSNqi';
 
+    //$db = new PDO('mysql:host=127.0.0.1;dbname='.$db_name.';charset=utf8',$db_user,$db_password);
     $db = new PDO('mysql:host=remotemysql.com;dbname='.$db_name.';charset=utf8',$db_user,$db_password);
 
     $con=mysqli_connect("remotemysql.com", $db_user, $db_password, $db_name);
