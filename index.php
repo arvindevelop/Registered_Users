@@ -42,6 +42,7 @@ include_once('includes/config.php');
                         <th scope="col">id</th>
                         <th scope="col">name</th>
                         <th scope="col">email</th>
+                        <th scope="col">mobile</th>
                         <th scope="col">password</th>
                     </tr>
                 </thead>
@@ -53,6 +54,7 @@ include_once('includes/config.php');
                         <th scope="row"><?php echo $row['id']; ?></th>
                         <td><?php echo $row['name']; ?></td>
                         <td><?php echo $row['email']; ?></td>
+                        <td><?php echo $row['mobile']; ?></td>
                         <td><?php echo $row['password']; ?></td>
                     </tr>
             <?php }?>
